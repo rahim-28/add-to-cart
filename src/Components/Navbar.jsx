@@ -3,11 +3,13 @@ import React from "react";
 const Navbar = ({ value }) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-body-tertiary">
         <div className="container px-4 px-lg-5">
-          <a className="navbar-brand" href="#!">
-            Start Bootstrap
-          </a>
+         <a className="navbar-brand" href="#">
+  <img src="https://cdn-icons-png.flaticon.com/512/2331/2331966.png" alt="Logo" width={30} height={24} className="d-inline-block align-text-top" />{" "}
+  rahims shop
+</a>
+
           <button
             className="navbar-toggler"
             type="button"
