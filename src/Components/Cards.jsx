@@ -4,7 +4,7 @@ const Cards = ({ value, setValue }) => {
   const cardProduct = [
     {
       id: 1,
-      name: "Wireless Mouse",
+      name: "Zebronics Mouse",
       price: "₹ 350 - ₹ 450",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl51vQ9yS5qk-iYTCK7DrECHB3uDKJ4eE7Ig&s",
     },
